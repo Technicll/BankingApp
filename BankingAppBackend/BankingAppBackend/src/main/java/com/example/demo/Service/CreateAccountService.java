@@ -16,11 +16,11 @@ public class CreateAccountService {
 
     public AccountEntity createAccount(AccountEntity account){
         AccountEntity acc = new AccountEntity();
-        acc.setFirst_name(account.getFirst_name());
-        acc.setLast_name(account.getLast_name());
+        acc.setFname(account.getFname());
+        acc.setLname(account.getLname());
         acc.setEmail(account.getEmail());
         acc.setPassword(account.getPassword());
-        acc.setPhone_number(account.getPhone_number());
+        acc.setPnumber(account.getPnumber());
         acc.setBalance(account.getBalance());
         return createAccountRepository.save(acc);
     }
@@ -31,7 +31,6 @@ public class CreateAccountService {
         if (result.isEmpty()) {
             return "Account does not exist";
         }
- 
         AccountEntity existingAccount = result.get(0);
     
 
@@ -42,5 +41,6 @@ public class CreateAccountService {
         return "Sign in successfully";
 
     }
+    
     
 }

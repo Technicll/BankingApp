@@ -24,5 +24,23 @@ public class CreateAccountService {
         acc.setBalance(account.getBalance());
         return createAccountRepository.save(acc);
     }
+
+    public String signIn(AccountEntity account){
+        List<AccountEntity> result = createAccountRepository.findByEmail(account.getEmail());
+        
+        if (result.isEmpty()) {
+            return "Account does not exist";
+        }
+ 
+        AccountEntity existingAccount = result.get(0);
+    
+
+        if (!existingAccount.getPassword().equals(account.getPassword())) {
+            return "Password does not match";
+        }
+
+        return "Sign in successfully";
+
+    }
     
 }

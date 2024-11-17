@@ -8,6 +8,7 @@ public class BankingAppBackendApplication {
 
 	public static void main(String[] args) {
 		//this is a comment
+		//2nd comment
 		SpringApplication.run(BankingAppBackendApplication.class, args);
 	} 
 

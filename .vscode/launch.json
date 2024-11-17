@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "BankingAppBackendApplication",
+            "request": "launch",
+            "mainClass": "com.example.demo.BankingAppBackendApplication",
+            "projectName": "demo"
+        },
+        {
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",

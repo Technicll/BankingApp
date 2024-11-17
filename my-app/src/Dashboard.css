@@ -1,0 +1,191 @@
+/* Dashboard.css */
+
+/* Style for the main navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #2349aa;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1000;
+  box-sizing: border-box;
+}
+
+/* Username info on the left */
+.user-info {
+  flex-grow: 1;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* User icon styles */
+.user-icon {
+  position: relative; /* For dropdown positioning */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Optional hover effect for icon */
+.user-icon:hover {
+  background-color: #45a049;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  min-width: 150px;
+  text-align: left;
+  padding: 0;
+}
+
+.dropdown-menu button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: white;
+  text-align: left;
+  cursor: pointer;
+  font-size: 14px;
+  color: #333;
+  border-bottom: 1px solid #eee;
+}
+
+.dropdown-menu button:last-child {
+  border-bottom: none;
+}
+
+.dropdown-menu button:hover {
+  background-color: #f4f4f4;
+}
+
+/* Mini Navbar */
+.mini-navbar {
+  background-color: #ffffff;
+  padding: 10px 0;
+  margin-top: 60px; /* Space from the main navbar */
+  width: 100%;
+  text-align: center;
+}
+
+/* Style for the nav links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style for individual links */
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 5px 10px;
+}
+
+/* Hover effect for the links */
+.nav-links a:hover {
+  background-color: #b7b7b7;
+  border-radius: 5px;
+}
+
+/* Welcome Section */
+.welcome-message {
+  margin-top: 20px;
+}
+
+.welcome-message h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Bonus Points Section */
+.bonus-points {
+  margin-top: 20px;
+  padding: 15px;
+  border: 2px solid #4CAF50;
+  background-color: #e8f5e9;
+  font-size: 18px;
+  color: #388e3c;
+  text-align: center;
+}
+
+/* Accounts Section */
+.accounts-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+/* Checking and Saving Account Cards */
+.account-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.account-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.account-card h3 {
+  margin: 0 0 10px;
+}
+
+.balance {
+  font-size: 18px;
+  color: #333;
+}
+
+/* Credit Card Section */
+.credit-card-section {
+  margin-top: 20px;
+}
+
+.credit-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.credit-card h3 {
+  margin: 0 0 10px;
+}
+
+.credit-card .balance {
+  font-size: 18px;
+  color: #333;
+}

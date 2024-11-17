@@ -1,0 +1,76 @@
+/* CreditScore.css */
+.credit-score-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .user-info .username {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .user-icon .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mini-navbar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .mini-navbar .nav-links li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  .mini-navbar .nav-links a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .credit-score-info {
+    margin-top: 30px;
+  }
+  
+  .credit-score-info h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .credit-score .credit-score-info p {
+    font-size: 24px;
+    color: #28a745;
+  }
+  
+  .back-to-dashboard {
+    margin-top: 30px;
+  }
+  
+  .back-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .back-button:hover {
+    background-color: #218838;
+  }
+  

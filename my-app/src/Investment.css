@@ -1,0 +1,70 @@
+/* Investment.css */
+.investment-container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .investment-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .investment-card {
+    width: 250px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .investment-card h3 {
+    font-size: 18px;
+    color: #007bff;
+  }
+  
+  .investment-card p {
+    font-size: 16px;
+  }
+  
+  .investment-value {
+    margin: 15px 0;
+  }
+  
+  .investment-value p {
+    font-weight: bold;
+  }
+  
+  .arrow-up {
+    color: #28a745; /* Green for up */
+    font-size: 30px;
+  }
+  
+  .arrow-down {
+    color: #dc3545; /* Red for down */
+    font-size: 30px;
+  }
+  
+  .back-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .back-button:hover {
+    background-color: #218838;
+  }
+  

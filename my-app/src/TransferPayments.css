@@ -1,0 +1,73 @@
+
+
+/* Set the whole container to take up full viewport height */
+.transferContainer {
+  background-color: #0056b3; /* Blue background */
+  min-height: 100vh; /* Full height of the viewport */
+  display: flex; /* Flexbox layout for centering content */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+/* Container for the transfer payment form */
+.transfer-payments-container {
+  background-color: #fff; /* White background for the form */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Form shadow */
+  max-width: 500px;
+  width: 100%;
+  text-align: center; /* Center the text inside the form */
+}
+
+/* Title and content styling */
+h1 {
+  color: #333;
+}
+
+p {
+  color: #555;
+}
+
+/* Form styling */
+.transfer-form {
+  margin-top: 20px;
+}
+
+input, select {
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%; /* Make the button full width */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the back to dashboard button */
+.back-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%; /* Make the button full width */
+  margin-top: 10px; /* Add some space above the button */
+}
+
+.back-button:hover {
+  background-color: #218838;
+}

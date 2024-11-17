@@ -1,0 +1,49 @@
+/* Account.css */
+.account-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .account-cards {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .account-card {
+    width: 30%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .account-card h3 {
+    margin: 0;
+  }
+  
+  .balance {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .credit-card-section {
+    margin-top: 20px;
+  }
+  
+  .credit-card {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .credit-card h3 {
+    margin: 0;
+  }
+  
+  .credit-card .balance {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  

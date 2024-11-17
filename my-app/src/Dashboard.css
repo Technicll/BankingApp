@@ -121,6 +121,8 @@
 
 /* Welcome Section */
 .welcome-message {
+  display: flex;
+  justify-content: center;
   margin-top: 20px;
 }
 

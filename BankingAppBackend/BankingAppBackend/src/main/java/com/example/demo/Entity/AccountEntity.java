@@ -18,10 +18,10 @@ public class AccountEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private String first_name;
-    private String last_name;
+    private String fname;
+    private String lname;
     private String email;
     private String password;
-    private String phone_number;
+    private String pnumber;
     private Float balance;
 }
